@@ -3,8 +3,8 @@ h1 { color: black; font-family: 'Anton', sans-serif; font-size: 4.0em;
 }
 img {  position: relative;
   margin: 0;
-  padding: 10cm;
-  width: 10cm;
+  padding: 1px;
+  width: 20cm;
   border: 1px solid gainsboro;
   background: white;
 }
