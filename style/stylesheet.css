@@ -1,5 +1,7 @@
 
 h1 { color: black; font-family: 'Anton', sans-serif; font-size: 4.0em;
 }
-img { width="215" height="183"   
+img {  width: 234px;
+    height: 123px;
+    margin-left: 20px; 
 }
