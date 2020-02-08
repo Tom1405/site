@@ -519,18 +519,29 @@ nav {
     }
 }
 @media screen and (max-width: 600px) {
+    .thema-box {
+        display: none;
+    }
+    .thema {
+        display: none;
+    }
+    .bildschrift {
+        display: none;
+    }
     .lebensweise-ueberschrift {
-        left: 20%;
+        max-width: 320px;
+        left: 17%;
     }
     .inhalt-lebensweise4 {
         flex-direction: column;
     }
     .arten-ueberschrift {
-        left: 35%;
+        max-width: 300px;
+        left: 37%;
     }
     .allgemeines-ueberschrift {
         font-size: 40px;
-        left: 15%;
+        max-width: 320px;
     }
     .section5 {
         border-bottom-color: white;
@@ -545,5 +556,3 @@ nav {
         border-bottom-color: white;
     }
 }
-
-
