@@ -4,5 +4,546 @@
     padding: 0px;
 }
 
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.thema-box {
+    flex: 1;
+    padding-left: 8%;  
+}
+.thema {
+    font-weight: 500;
+    margin: 5px;
+    font-size: 24px;
+}
+nav {
+    flex: 2;
+    padding-left: 30%;
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #5f5f79;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+.nav-link:hover {
+    color: rgb(230, 120, 3)
+}
+.nav-link-onpage {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(230, 120, 3) ;
+    font-weight: 500;
+}
+
+.thema-box,.nav-links {
+    display: flex;
+}
+.hintergrund { 
+    width: 100%;
+    height: auto;
+    max-height: 1000px;
+}
+.bildbeschriftung {
+    position: relative;
+}
+.hintergrund {
+    display: block;
+}
+.bildschrift {
+    position: absolute;
+    bottom: 50%;
+    left: 15%;
+    color: rgb(243, 230, 230);
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.allgemeines .lebensweise .arten{
+    width: 100%;
+    height: auto;
+}
+.allgemeines-ueberschrift {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    left: 40%;
+    position: relative;
+    padding-bottom: 50px;
+    max-width: 1000px;
+}
+.inhalt-allgemeines {
+    display: flex;
+    padding-bottom: 100px;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+}
+.section1 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-color: rgb(46, 39, 39);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.section2 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-color: rgb(46, 39, 39);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.sectionx {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.pdeko {
+    padding-bottom: 20px;
+}
+.inhalt-allgemeines2 {
+    display: flex;
+    padding-bottom: 100px;
+}
+.section3 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.h4deko-extra {
+    padding-bottom: 65px;
+}
+.section4 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.inhalt-allgemeines3 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+} 
+.section5 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-color: rgb(46, 39, 39);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.section6 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.h4deko-extra1 {
+    padding-bottom: 10px;
+    border-bottom-color: rgb(46, 39, 39);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.inhalt-allgemeines4 {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.section7 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;   
+}
+.section8 {
+    flex: 2;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.pdeko1 {
+    padding-bottom: 7px;
+}
+.inhalt-allgemeines5 {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.section9 {
+    flex: 2;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section10 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(243, 147, 44);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    list-style: none;
+}
+.quellen-links {
+    text-decoration: none;
+}
+
+.lebensweise-ueberschrift {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    left: 40%;
+    position: relative;
+    padding-bottom: 50px;
+    max-width: 1000px;
+}
+.inhalt-lebensweise {
+    display: flex;
+    padding-bottom: 100px;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+}
+.section11 {
+    width: 80%;
+    margin: auto;
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.inhalt-lebensweise1 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+
+}
+.section12 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+
+}
+.section13 {
+    flex: 2;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.inhalt-lebensweise2 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.section14 {
+    flex: 2;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.sectin15 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.inhalt-lebensweise3 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.section16 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section17 {
+    flex: 2;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.inhalt-lebensweise4 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+.h4dekoextra {
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    padding-top: 70px;
+
+}
+.arten-ueberschrift {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    left: 46.5%;
+    position: relative;
+    padding-bottom: 50px;
+    max-width: 1000px;
+}
+.inhalt-arten {
+    display: flex;
+    padding-bottom: 100px;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+}
+.section18 {
+    width: 80%;
+    margin: auto;
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.inhalt-arten1 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.section19 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section20 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section21 {
+    flex: 1;
+    text-align: center;
+}
+.inhalt-arten2 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    align-items: center; 
+}
+.section22 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section23 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section24 {
+    flex: 1;
+    text-align: center;
+}
+.inhalt-arten3 {
+    display: flex;
+    padding-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    align-items: center; 
+}
+.section25 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section26 {
+    flex: 1;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.section27 {
+    flex: 1;
+    text-align: center;
+}
+.inhalt-anforderungen {
+    color:white;
+}
+@media screen and (max-width: 1000px) {
+    header {
+        width: 98%;
+    }
+    nav {
+        padding-left: 0%;
+    }
+    .thema-box {
+        padding-left: 8%;
+    }
+    .hintergrund {
+        width: 100%;
+        height: auto;
+    }
+    .allgemeines-ueberschrift {
+        left: 30%;
+    }
+    .section1 {
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+    }
+    .section2 {
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+    }
+    .sectionx {
+        border-top-color: white;
+        border-bottom-color: white;
+    }
+    .inhalt-allgemeines2 { 
+            flex-direction: column;  
+    }
+    .arten-ueberschrift {
+        left: 43%;
+    }
+    .inhalt-arten1 {
+        flex-direction: column;
+    }
+    .inhalt-arten2 {
+        flex-direction: column;
+    }
+    .inhalt-arten3 {
+        flex-direction: column;
+    }
+    .lebensweise-ueberschrift {
+        left: 35%;
+    }
+    .inhalt-lebensweise1 {
+        flex-direction: column;
+    }
+    .inhalt-lebensweise2 {
+        flex-direction: column-reverse;
+    }
+    .inhalt-lebensweise3 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .lebensweise-ueberschrift {
+        left: 20%;
+    }
+    .inhalt-lebensweise4 {
+        flex-direction: column;
+    }
+    .arten-ueberschrift {
+        left: 35%;
+    }
+    .allgemeines-ueberschrift {
+        font-size: 40px;
+        left: 15%;
+    }
+    .section5 {
+        border-bottom-color: white;
+        border-right-color: white;
+        border-top-color: white;
+    }
+    .section6 {
+        border-bottom-color: white;
+        border-top-color: white;
+    }
+    .h4deko-extra1 {
+        border-bottom-color: white;
+    }
+}
 
 
